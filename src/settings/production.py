@@ -6,9 +6,9 @@ DEBUG = False
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME' : config('PRODUCTION_DB_NAME'),
-        'USER' : config('PRODUCTION_DB_USER'),
+        'USERNAME' : config('PRODUCTION_DB_USERNAME'),
         'PASSWORD' : config('PRODUCTION_DB_PASSWORD'),
         'HOST':config('PRODUCTION_DB_HOST')
     }
