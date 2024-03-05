@@ -22,6 +22,7 @@ oauthlib==3.2.2
 packaging==23.1
 pillow==10.2.0
 pip-tools==7.3.0
+psycopg2-binary==2.9.9
 pycparser==2.21
 PyJWT==2.8.0
 pyproject_hooks==1.0.0
