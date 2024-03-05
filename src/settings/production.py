@@ -7,10 +7,10 @@ DEBUG = False
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'indyldhn',
-        'USER': 'indyldhn',
-        'PASSWORD': 'HKRdOvcs_VKahdOp9OF8359pGUUXPRIs',
-        'HOST': 'floppy.db.elephantsql.com'
+        'NAME': config('PRODUCTION_DB_NAME'),
+        'USER': config('PRODUCTION_DB_USER'),
+        'PASSWORD': config('PRODUCTION_DB_PASSWORD'),
+        'HOST': config('PRODUCTION_DB_HOST')
     }
 }
 #ffv
