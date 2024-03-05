@@ -7,10 +7,10 @@ DEBUG = False
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME' : config('PRODUCTION_DB_NAME'),
-        'USERNAME' : config('PRODUCTION_DB_USERNAME'),
-        'PASSWORD' : config('PRODUCTION_DB_PASSWORD'),
-        'HOST':config('PRODUCTION_DB_HOST')
+        'NAME': 'musicaipppi0$default',
+        'USERNAME': 'musicaipppi0',
+        'PASSWORD': 'oralxan_2608',
+        'HOST': 'musicaipppi0.mysql.pythonanywhere-services.com'
     }
 }
 #ffv
