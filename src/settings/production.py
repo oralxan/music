@@ -13,3 +13,4 @@ DATABASES = {
         'HOST': config('PRODUCTION_DB_HOST')
     }
 }
+#mkmfd
