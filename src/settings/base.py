@@ -35,7 +35,17 @@ REST_FRAMEWORK = {
     ]
 }
 
+CORS_ALLLOWED_ORIGINS=[
+    'localhost:3000',
+    'localhost:8000',
+    'localhost:5173',
+]
 
+CSRF_TRUSTED_ORIGINS=[
+    'localhost:3000',
+    'localhost:8000',
+    'localhost:5173',
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
