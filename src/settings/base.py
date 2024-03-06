@@ -36,18 +36,19 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
-
-CORS_ALLLOWED_ORIGINS=[
-    'localhost:3000',
-    'localhost:8000',
-    'localhost:5173',
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://localhost:5173',
+    'http://localhost:8000',
+]
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:3000',
+    'http://localhost:8000',
+    'http://localhost:5173',
 ]
 
-CSRF_TRUSTED_ORIGINS=[
-    'localhost:3000',
-    'localhost:8000',
-    'localhost:5173',
-]
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
