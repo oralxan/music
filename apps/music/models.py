@@ -11,6 +11,7 @@ class Music(Model):
     )
     released_date = DateField(
         'released_date of the music',
+        auto_now_add=True
 
     )
     def __str__(self):
